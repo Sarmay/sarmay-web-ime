@@ -1,0 +1,13 @@
+.git
+.vscode
+node_modules
+src
+test
+coverage
+
+.npmignore
+.DS_Store
+.eslintrc.js
+.eslintignore
+.babelrc
+package-lock.json

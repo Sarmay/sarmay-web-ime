@@ -1,7 +1,7 @@
 {
   "name": "@sarmay/web-ime",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "This is a tool that is responsible for converting the content entered by the user in the input box into other characters",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
@@ -11,8 +11,16 @@
     "cover": "istanbul cover node_modules/mocha/bin/_mocha",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sarmay/sarmay-web-ime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sarmay/sarmay-web-ime/issues"
+  },
+  "homepage": "https://github.com/Sarmay/sarmay-web-ime",
+  "keywords": ["kazakh","uyghur","kirgiz","arabic","latin","web-IME","converter"],
+  "author": "Sarmay <282387881@qq.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
