@@ -19,4 +19,3 @@ deploy:
     repo: Sarmay/sarmay-web-ime
     all_branches: true
   skip_cleanup: true
-  tag: next

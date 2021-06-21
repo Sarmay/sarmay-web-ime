@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>@Sarmay/web-ime</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
+    <!-- import sarmayIme -->
+    <script src="../dist/index.min.js"></script>
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <div style="display:flex;justify-content:center;">
+      <textarea name="test" id="test" cols="50" rows="10"></textarea>
+    </div>
+    <script src="https://unpkg.com/chai/chai.js"></script>
+    <script src="https://unpkg.com/mocha/mocha.js"></script>
+    <script class="mocha-init">
+      mocha.setup('bdd');
+      mocha.globals(['__VUE_DEVTOOLS_TOAST__']);
+      mocha.checkLeaks();
+
+      let textarea = '';
+      test.addEventListener("keydown", function(event) {
+          this.value += window.sarmayIme('kk',event);
+          textarea += window.sarmayIme('kk',event);
+      });
+
+      let element = document.getElementById('test');
+      let event = document.createEvent("Event");
+      event.initEvent("keydown",true,false);
+      event = Object.assign(event, {
+        ctrlKey: false,
+        metaKey: false,
+        altKey: false,
+        which: 65,
+        keyCode: 65,
+        key: 'a',
+        code: 'KeyA'
+      });
+
+      element.focus();
+      element.dispatchEvent(event);
+      describe('test sarmayIme keydown Events', () => {
+        it('test input key:a ; input value ф; lang:kk', function () {
+          chai.expect(textarea).to.be.equal('ф');
+        })
+      });
+    </script>
+    <script class="mocha-exec">
+      mocha.run();
+    </script>
+  </body>
+</html>

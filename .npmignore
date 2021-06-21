@@ -11,5 +11,5 @@ coverage
 .DS_Store
 .eslintrc.js
 .eslintignore
-.babelrc
+webpack.config.js
 package-lock.json

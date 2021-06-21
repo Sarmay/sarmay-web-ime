@@ -1,6 +1,6 @@
 const languagePack = require('./keyboardLangs')
 
-const keydownHandel = (lang, event) => {
+export default function webIME (lang, event) {
   const langKeys = Object.keys(languagePack)
   const interLang = `${lang}Map`
   if (!event || !lang || !langKeys.includes(interLang)) {
@@ -16,5 +16,3 @@ const keydownHandel = (lang, event) => {
   }
   return newChars
 }
-
-module.exports = keydownHandel
