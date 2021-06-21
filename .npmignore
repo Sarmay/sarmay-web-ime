@@ -4,6 +4,8 @@ node_modules
 src
 test
 coverage
+.coveralls.yml
+.travis.yml
 
 .npmignore
 .DS_Store
