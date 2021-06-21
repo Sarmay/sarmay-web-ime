@@ -18,6 +18,9 @@
   "bugs": {
     "url": "https://github.com/Sarmay/sarmay-web-ime/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/Sarmay/sarmay-web-ime",
   "keywords": ["kazakh","uyghur","kirgiz","arabic","latin","web-IME","converter"],
   "author": "Sarmay <282387881@qq.com>",
