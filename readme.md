@@ -1,5 +1,5 @@
 # WEB-IME
 
-[![Build Status](https://travis-ci.org/wulv/del-expired-file.png)](https://travis-ci.org/wulv/del-expired-file)
+[![Build Status](https://www.travis-ci.com/Sarmay/sarmay-web-ime.svg?branch=main)](https://www.travis-ci.com/Sarmay/sarmay-web-ime)
 
 [![Coverage Status](https://coveralls.io/repos/github/Sarmay/sarmay-web-ime/badge.svg?branch=main)](https://coveralls.io/github/Sarmay/sarmay-web-ime?branch=main)
