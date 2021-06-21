@@ -16,7 +16,7 @@ deploy:
   api_key:
     secure: lCpuRsurGOHbf+1NvNojszsb3dbYYP4NbL1btQij9gQxhQIC6aOubtO2CKrg/GU36r7vCJVFrGQpLNdwvDk+bMBihERb+wISa60u6g4caQ9EOPheTitjq8toIjATTTPq4LOgfmA/PXNEFQECS3jkVNIwPMKZtqe43N39Pjc5c9urZYWvzHS8o0JSHJFsDV+9Q0LIHpH3nY+Sntq788L9ZKQHqqqc1ukr0ql4QUyyVaAR9Cikk2yYp6bO8AJvSmNGSiAoFOxQcUdWfTHKLFGae2Djvzp5TOUrn/6SnYB7k6d5guVq6eiTKebT0tMLaCxSW0I8U9ub5zAhOkteCyxoxkwhGNuN5vyA1DsKYqC0zhQzAPlkOwqLpU/OC2BYr/ENFS67eglnqQ+HPq0jf5tdTQ7Rx0U3m6z523jkqeP+knt2w6erTyKE9dnkRYZ9jSWLJLg2J/HMP2Y6ORNYcyviwc7SH1YFZaIgPEuu47Lkb/5JdCHUzbidnavdvC6LKZw6kBV3aahR5xW2un2HZRhTm2Ufar/7qHSOucLj8nA1+UH/jUwkRA6ZTji4ItbmtMnDD4oh5fynr0c7A4QbAQ17dfLmgzLqwD98x6Rgl3OWlpjBJcwrIApP7LTss7LTiX0n3PQ7kTjCd0vXSJPckSUZUopAQ4ek9JbMjD9AUXaSk1g=
   on:
-    tags: true
+    tags: false
     repo: Sarmay/sarmay-web-ime
     branch: main
   skip_cleanup: 'true'
