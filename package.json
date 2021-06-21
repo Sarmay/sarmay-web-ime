@@ -1,6 +1,6 @@
 {
   "name": "@sarmay/web-ime",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "description": "This is a tool that is responsible for converting the content entered by the user in the input box into other characters",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/Sarmay/sarmay-web-ime",
+  "homepage": "https://github.com/Sarmay/sarmay-web-ime#readme",
   "keywords": [
     "kazakh",
     "uyghur",
