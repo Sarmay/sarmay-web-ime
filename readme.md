@@ -6,3 +6,4 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/Sarmay/sarmay-web-ime/badge.svg?branch=main)](https://coveralls.io/github/Sarmay/sarmay-web-ime?branch=main)
 
+# USE
