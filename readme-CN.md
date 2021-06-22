@@ -87,7 +87,7 @@ kg => 柯尔克孜阿拉伯文键盘;
 
   methods: {
     keydownHandel(event) {
-      this.value += webIME(this.defaultLang, event)
+      webIME(this.defaultLang, event)
     }
   }
 }
@@ -116,7 +116,7 @@ kg => 柯尔克孜阿拉伯文键盘;
       var defaultLang= 'kz'; /** 更多选项看上面的语言选项 */
       var test = document.getElementById('test');
       test.addEventListener("keydown", function(event) {
-          this.value += window.sarmayIme(defaultLang, event);
+          sarmayIme(defaultLang, event);
       });
     </script>
   </body>

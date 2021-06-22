@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="mocha"></div>
-    <div style="display:flex;justify-content:center;">
+    <div style="display:flex;justify-content:center;direction:rtl;">
       <textarea name="test" id="test" cols="50" rows="10"></textarea>
     </div>
     <script src="https://unpkg.com/chai/chai.js"></script>
@@ -22,8 +22,7 @@
 
       let textarea = '';
       test.addEventListener("keydown", function(event) {
-          this.value += window.sarmayIme('kk',event);
-          textarea += window.sarmayIme('kk',event);
+        textarea = sarmayIme('kk', event)
       });
 
       let element = document.getElementById('test');

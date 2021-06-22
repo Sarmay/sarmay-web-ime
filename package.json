@@ -1,6 +1,6 @@
 {
   "name": "@sarmay/web-ime",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "This is a tool that is responsible for converting the content entered by the user in the input box into other characters",
   "main": "index.js",
   "scripts": {

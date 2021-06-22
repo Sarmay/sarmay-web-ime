@@ -86,7 +86,7 @@ An event can be triggered by the user action e.g. clicking the mouse button or t
 
   methods: {
     keydownHandel(event) {
-      this.value += webIME(this.defaultLang, event)
+      webIME(this.defaultLang, event)
     }
   }
 }
@@ -115,7 +115,7 @@ An event can be triggered by the user action e.g. clicking the mouse button or t
       var defaultLang= 'kz'; /** more option look langOptions */
       var test = document.getElementById('test');
       test.addEventListener("keydown", function(event) {
-          this.value += window.sarmayIme(defaultLang, event);
+         sarmayIme(defaultLang, event);
       });
     </script>
   </body>
